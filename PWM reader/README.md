@@ -3,25 +3,30 @@
 
 ## Usage
 
-# IMPORTANT USE this ONLY IF YOU KNOW THE FREAQUENCY OF THE PWM SIGNAL
+#  USE THE FUNCTIONS ONLY IF YOU KNOW THE FREAQUENCY OF THE PWM SIGNAL
 
 ```
 readDuty(GPIO_PIN,pulse_level=1)
 ```
 
-### GPIO_PIN from where you want to read the values.
-### pulse_level The timeperiod of signal HIGH(1) or LOW(0), default value (1) will read timeperiod of signal HIGH
-### Returns Pulse Width measuring high/low in PWM signal in microsecond
+**GPIO_PIN from where you want to read the values**
+
+**pulse_level The timeperiod of signal HIGH(1) or LOW(0), default value (1) will read timeperiod of signal HIGH**
+
+**Returns Pulse Width measuring high/low in PWM signal in microsecond**
 
 
 ```
 readDutyAsPercentage(GPIO_PIN,freaquency,pulse_level=1)
 ```
 
-### GPIO_PIN from where you want to read the values.
-### freaquency of the PWM signal
-### pulse_level The timeperiod of signal HIGH(1) or LOW(0), default value (1) will read timeperiod of signal HIGH
-### Returns Pulse Width measuring high/low in PWM signal in microsecond
+**GPIO_PIN from where you want to read the values.**
+
+**freaquency of the PWM signal**
+
+**pulse_level The timeperiod of signal HIGH(1) or LOW(0), default value (1) will read timeperiod of signal HIGH**
+
+**Returns Pulse Width measuring high/low in PWM signal in microsecond**
 
 
 # Example
